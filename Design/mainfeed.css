@@ -1,0 +1,162 @@
+.main-feed
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.filter
+{
+    flex: 1;
+    height: max-content;
+    align-items: center;
+    display: flex;
+    max-height: 30px;
+    width: 100%;
+}
+.filter-button-style
+{
+    border-radius: 20px;
+    height: 28px;
+    width: 50px;
+    margin-right: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.filter-button-style:hover
+{
+    background-color: #e2e7e9;
+    cursor: pointer;
+}
+.custom-line
+{
+    border-color: #efecec45;
+    height: 0px;
+    width: 400px;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.content:hover
+{
+    background-color: #e2e7e9;
+    cursor: pointer;
+}
+.content-header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 32px;
+}
+.profile-but
+{
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+}
+.space
+{
+    margin-right: 6px;
+}
+.profile-font
+{
+    font-size: 12px;
+}
+.time
+{
+    display: flex;
+    font-size: 12px;    
+}
+.join-button
+{
+    margin-left: 360px;
+    height: 25px;
+    width: 45px;
+    background-color: #0045ac;
+    border-radius: 15px;
+    border: none;
+
+}
+.join-font
+{
+    color: #fff;
+    
+}
+.join-font:hover
+{
+    background-color: #003584;
+    cursor: pointer;
+}
+.more-button
+{
+    height: 30px;
+    border-radius: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #fff;
+}
+.more-button:hover
+{
+    background-color:  #e0e6e9;
+    cursor: pointer;
+}
+.content-body
+{
+    font-size: 20px
+}
+.content-footer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+}
+.vote
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.comment
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.share
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.footer-buttons
+{
+    border-radius: 20px;
+    width: 75px;
+    height: 29px;
+    margin-top: 8px;
+    margin-right: 10px;
+    border: none;
+    background-color: #dbe2e5;
+}
+.footer-buttons:hover
+{
+    background-color: #e0e6e9;
+    cursor: pointer;
+}

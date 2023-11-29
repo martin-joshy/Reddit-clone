@@ -1,0 +1,60 @@
+.pop-commuities
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.pop-commu-box
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 350px;
+    background-color: #f2f4f5ad;
+    
+}
+.pop-commu-boxes
+{
+    height: 50px;
+    background-color: #f2f4f5ad;
+    border: none;
+
+}
+.pop-commu-boxes
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px ;
+
+}
+.pop-commu-boxes:hover
+{
+    background-color:#e0e6e9;
+}
+.pop-commu-boxes-image-sizing
+{
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+}
+.pop-commu-boxes-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: left;
+}
+.popular-com-heading
+{
+    height: 40px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 20px;
+}

@@ -1,0 +1,79 @@
+.menubox
+{
+    top: 70px;
+    left: 0;
+    display: flex;
+    position:fixed;
+    flex-direction: column;
+    background-color: #fff;
+    border-right: 1px solid #efecec;
+}  
+.menu-top
+{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.menu-bottom
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    border-top: 1px solid #efecec;
+}
+.menu-button-styling
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.menu-button-styling
+{
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    
+}
+.menu-button-styling:hover
+{
+    background-color: #e2e7e9;
+    cursor: pointer;
+
+}
+.see-more
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    width: 72px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 12px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+
+}
+.see-more:hover
+{
+    background-color: #e2e7e9;
+    cursor: pointer;
+}
+.topics-button
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+

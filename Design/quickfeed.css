@@ -1,0 +1,25 @@
+.quick-feed
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+.img-box
+{
+   
+    background-color: aqua;
+    height: 210px;
+    width: 285px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.image
+{
+    height: 210px;
+    width: 285px;
+    border-radius: 20px;
+}
+

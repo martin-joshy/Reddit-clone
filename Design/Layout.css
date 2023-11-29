@@ -1,0 +1,51 @@
+.base
+{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+    padding-top: 70px;
+}
+.header
+{
+    height: 58px;
+}
+.body
+{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    
+}
+.menubox
+{
+    height: 850px;
+    width: 255px; 
+}
+.main-content
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+}
+.quick-feed
+{
+    max-height: 765px; 
+    
+}
+.feed
+{
+    flex: 1;
+    display: flex;
+    flex-direction: row; 
+}
+.main-feed
+{
+    width: 63%;
+
+} 
+.pop-commuities
+{
+    flex: 1;  
+}   
+
